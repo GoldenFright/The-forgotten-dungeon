@@ -238,7 +238,8 @@ while True:
                             "Nothing haha", "Nothing but always buy me a coffee", "Nothing but subscribe to my channel www.youtube.com/@goldenfright",
                             "Nothing lmao", "Nothing", "Nothing, at this point try something else", "Nothing hahaha", "Nothing", "Nothing"]
             else:
-                possible = ["Dungeon"]
+                possible = ["Dungeon", "16 Iron ore", "15 Iron ore", "8 Iron", "10 Iron", "6 Gold", "8 Gold", "14 Gold ore", "3 Diamond", "4 Diamonnd", "15 Coal",
+                 "12 Coal", "10 Coal", "1 Coal", "20 Petrol", "1 Ore tracker scroll", "1 Ore tracker scroll", "10 Petrol", "3 Lost key", "3 Sword"]
                 of -= 1
             choice = rn.choice(possible)
             try:
